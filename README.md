@@ -11,6 +11,10 @@ In this project, I built an end-to-end sentiment analysis pipeline that processe
 The analysis uses text preprocessing, TF-IDF feature extraction, and a Logistic Regression classifier to learn patterns in customer feedback.  
 In addition to model performance, the project includes visual analysis to better understand customer behaviour and model decision-making.
 
+## Visual Analysis
+
+The following plots provide additional insight into customer review behaviour and model decision-making.
+
 ## Dataset
 
 The project uses the **Amazon Reviews Polarity dataset** released by the Stanford Network Analysis Project (SNAP).
@@ -73,10 +77,4 @@ Accuracy: 0.55
    macro avg     0.2750    0.5000    0.3548        20
 weighted avg     0.3025    0.5500    0.3903        20
 
-## Visual Analysis
 
-### Review Length Distribution by Sentiment
-
-This plot compares the length of positive and negative reviews, highlighting differences in how customers express satisfaction versus dissatisfaction.
-
-![Review Length Distribution](outputs/review_length_by_sentiment.png)
