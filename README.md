@@ -52,7 +52,6 @@ The sentiment analysis pipeline follows these steps:
 4. **Model training**
    - Train a **Logistic Regression** classifier on the TF-IDF features
    - Learn which words and phrases are associated with positive and negative sentiment
-
 5. **Evaluation**
    - Test the model on unseen reviews
    - Measure performance using accuracy, precision, recall, and F1 score
@@ -76,5 +75,12 @@ Accuracy: 0.55
     accuracy                         0.5500        20
    macro avg     0.2750    0.5000    0.3548        20
 weighted avg     0.3025    0.5500    0.3903        20
+
+## Limitations
+
+Model performance metrics are sensitive to sample size.  
+Initial evaluation was conducted on a small subset to validate the pipeline.  
+Future work could include evaluation on larger test samples and alternative models.
+
 
 
