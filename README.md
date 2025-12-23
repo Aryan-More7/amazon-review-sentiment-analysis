@@ -13,7 +13,7 @@ In addition to model performance, the project includes visual analysis to better
 
 ## Visual Analysis
 
-The following plots provide additional insight into customer review behaviour and model decision-making.
+The following plots provide additional insight into customer review behaviour and model decision making.
 
 ## Dataset
 
@@ -63,7 +63,7 @@ Model: **Logistic Regression** (TF-IDF features)
 
 Evaluation was performed on a held-out test sample.
 
-- **Accuracy:** [ADD_YOUR_ACCURACY]
+- **Accuracy:** 0.55
 - **Precision / Recall / F1-score:** see classification report below
 
 ```text
