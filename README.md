@@ -75,12 +75,12 @@ Accuracy: 0.55
     accuracy                         0.5500        20
    macro avg     0.2750    0.5000    0.3548        20
 weighted avg     0.3025    0.5500    0.3903        20
+```
 
 ## Limitations
-
-Model performance metrics are sensitive to sample size.  
-Initial evaluation was conducted on a small subset to validate the pipeline.  
-Future work could include evaluation on larger test samples and alternative models.
+- Small test sample size may inflate or skew performance metrics  
+- Class imbalance affected recall for the negative class  
+- Model was evaluated only on a single split without cross-validation
 
 
 
