@@ -73,3 +73,10 @@ Accuracy: 0.55
    macro avg     0.2750    0.5000    0.3548        20
 weighted avg     0.3025    0.5500    0.3903        20
 
+## Visual Analysis
+
+### Review Length Distribution by Sentiment
+
+This plot compares the length of positive and negative reviews, highlighting differences in how customers express satisfaction versus dissatisfaction.
+
+![Review Length Distribution](outputs/review_length_by_sentiment.png)
